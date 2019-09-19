@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3155" started-at="2019-09-16T14:27:57Z" finished-at="2019-09-16T14:28:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3155" started-at="2019-09-16T14:27:57Z" finished-at="2019-09-16T14:28:00Z">
+      <class name="com.rest.practice.PostApi">
+        <test-method status="PASS" signature="postAndDeleteApiTest()[pri:0, instance:com.rest.practice.PostApi@1ed4004b]" name="postAndDeleteApiTest" duration-ms="3141" started-at="2019-09-16T19:57:57Z" finished-at="2019-09-16T19:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAndDeleteApiTest -->
+      </class> <!-- com.rest.practice.PostApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
