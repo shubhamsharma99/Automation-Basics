@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="functional.EmployeeEventTest">
+        <methods>
+          <include name="clickEvent"/>
+          <include name="verifyEventLink"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- functional.EmployeeEventTest -->
+      <class name="functional.EmpGeneralTest">
+        <methods>
+          <include name="liveLink"/>
+        </methods>
+      </class> <!-- functional.EmpGeneralTest -->
+      <class name="functional.EventTest">
+        <methods>
+          <include name="Sort"/>
+          <include name="addingDescriptionPopUp"/>
+          <include name="selectEventGrid"/>
+          <include name="selectAndDeleteGrid"/>
+          <include name="addNewPopUp"/>
+          <include name="EventLink"/>
+        </methods>
+      </class> <!-- functional.EventTest -->
+      <class name="functional.LoginTest">
+        <methods>
+          <include name="loginWithValidCredentials"/>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="submitBtnTest"/>
+          <include name="teardown"/>
+          <include name="resetBtnTest"/>
+          <include name="setup"/>
+          <include name="logoutTestSuccessfull"/>
+        </methods>
+      </class> <!-- functional.LoginTest -->
+      <class name="functional.EmployeeLandingPageTest">
+        <methods>
+          <include name="verifyEmployeeLandingPage"/>
+          <include name="verifyMenuBarLinks"/>
+        </methods>
+      </class> <!-- functional.EmployeeLandingPageTest -->
+      <class name="functional.AdminNotificationGridTest">
+        <methods>
+          <include name="selectAndDeleteNotificationGridTest"/>
+          <include name="verifyAdminNotificationLink"/>
+          <include name="verifyAddNewNotificationPopUpFunctionalityForGeneral"/>
+          <include name="verifyAddNewDepartmentPopUp"/>
+          <include name="verifyAddAndCloseNotificationPopUp"/>
+          <include name="verifyAddNewNotificationPopUpFunctionalityForMandatory"/>
+        </methods>
+      </class> <!-- functional.AdminNotificationGridTest -->
+      <class name="functional.UserGeneralTest">
+        <methods>
+          <include name="GeneralRadio"/>
+          <include name="GeneralNotice"/>
+          <include name="GeneralLink"/>
+        </methods>
+      </class> <!-- functional.UserGeneralTest -->
+      <class name="functional.AdminLiveTest">
+        <methods>
+          <include name="selectAndDeleteSportGrid"/>
+          <include name="verifyAddNewLivePopUp"/>
+          <include name="verifyLiveLink"/>
+        </methods>
+      </class> <!-- functional.AdminLiveTest -->
+      <class name="functional.UserMandatoryTest">
+        <methods>
+          <include name="mandatoryLink"/>
+        </methods>
+      </class> <!-- functional.UserMandatoryTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

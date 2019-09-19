@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners> <listener class-name="Reusable.TestNGListener"></listener> 
+		</listeners>
+
+	<test name="Test">
+		<parameter name="email" value="sunil_yalamanchili@epam.com" />
+		<parameter name="password" value="Epam123$" />
+		<!--<parameter name="username" value="sunil" /> -->
+
+
+
+		<classes>
+
+			<class name="functional.LoginTest">
+				<methods>
+					<include name="loginWithValid" />
+					<include name="logoutTestSuccessfull" />
+					<!-- <include name="selectSportGridTest" /> <include name="deleteSelectedGridTest" 
+						/> <include name="addNewLivePopUpTest" /> -->
+
+
+
+
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
